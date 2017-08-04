@@ -1,0 +1,4 @@
+<launch>
+  <node name="node_send_count" pkg="messa_pkg"   type="send_number.py" output="screen" />
+  <node name="node_get_count" pkg="messa_pkg"   type="get_count.py" output="screen" />
+</launch>
